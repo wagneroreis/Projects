@@ -6,6 +6,8 @@ namespace Wagner
     {
         static void Main(string[] args)
         {
+            // Estrutura condicional
+
             int horas;
 
             Console.WriteLine("Quantas Horas? ");
