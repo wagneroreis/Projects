@@ -6,21 +6,24 @@ namespace Wagner
     {
         static void Main(string[] args)
         {
+            int horas;
 
-        int horas;
+            Console.WriteLine("Quantas Horas? ");
+            horas = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("Quantas Horas? ");
-        horas = int.Parse(Console.ReadLine());
-
-        if (horas < 12) {
-            Console.WriteLine("Bom dia!");
-        }
-        else if (horas < 18) {
+            if (horas < 12)
+            {
+                Console.WriteLine("Bom dia!");
+            }
+            else if (horas < 18)
+            {
                 Console.WriteLine("Boa tarde!");
-        }
-        else {
-            Console.WriteLine("Boa noite!");
-        }
-        }
+            }
+            else
+            {
+                Console.WriteLine("Boa noite!");
+
+
+            }
     }
 }
